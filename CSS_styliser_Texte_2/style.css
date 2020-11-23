@@ -1,0 +1,59 @@
+h1 {
+    font-weight: normal;
+    text-shadow: 2px 2px 5px #10e056;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+}
+
+p.prems {
+    font-variant: small-caps;
+    text-decoration: line-through rgb(31, 190, 45);
+}
+
+p.deuz {
+    font-style: italic;
+    text-decoration: overline;
+    text-indent: 150px;
+}
+
+p.troiz {
+    font-weight: bold;
+    ;
+    text-overflow: clip;
+}
+
+p.qatrz {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+p.cinqz {
+    line-height: 65%;
+}
+
+p.sixz {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+p.sept {
+    font-family: cursive;
+}
+
+p.huit {
+    font-family: Calibri, serif;
+}
+
+p.neuf {
+    text-decoration-line: underline;
+    text-decoration-style: ;
+}
+
+p.wala {
+    vertical-align: top-bottom;
+    /*fonctionne avec les images */
+}

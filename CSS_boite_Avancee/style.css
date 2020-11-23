@@ -1,0 +1,39 @@
+body {
+    background-color: #EEE;
+    margin: auto;
+    width: 800px;
+}
+
+#wrapper {
+    border: 3px solid darkblue;
+}
+
+#wrapper,
+.bloc1,
+.bloc2 {
+    width: 100%;
+}
+
+.bloc1,
+.bloc2 {
+    box-sizing: border-box;
+}
+
+.bloc1 {
+    background-color: rgb(59, 146, 59);
+}
+
+.bloc2 {
+    background-color: rgb(71, 64, 107);
+    padding: 15px;
+}
+
+
+/*#wrapper {
+    background-color: #FFF;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    margin-top: 50px;
+    padding: 5px;
+}
+*/

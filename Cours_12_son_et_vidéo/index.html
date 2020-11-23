@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sons et Vidéos</title>
+</head>
+
+<body>
+    <!--
+    AUDIO : mp3  (compatible partout)
+            wav  (compatible sauf IE)
+            ogg  (compatible sauf Internet Explorer et Safari)
+            preload="metadata"/auto/none volume="0" "1.0"=100%
+    VIDEO : mp4  (compatible partout)
+            webm (compatible sauf IE et Safari)
+            ogg  (compatible sauf IE et Safari)
+        -->
+    <h1>Sons et vidéos</h1>
+
+    <audio controls preload="metada">
+        <source  src="son.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio
+    </audio>
+
+    <video width="640" height="auto" poster="mini.JPG" controls>
+        <source src="Kaam.mp4" type="video/mp4">
+        votre navigateur ne prends pas en charge la video HTML
+    </video>
+</body>
+
+</html>

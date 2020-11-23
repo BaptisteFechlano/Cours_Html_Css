@@ -1,0 +1,45 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: #DDD;
+    width: 800px;
+    margin: 25px;
+}
+
+div {
+    background-color: #888;
+    width: 600px;
+    height: 400px;
+    padding: 25px;
+    margin-left: 250px;
+}
+
+p {
+    background-color: aquamarine;
+    width: 450px;
+    height: 30%;
+    padding: 25px;
+}
+
+
+/*
+width: | min-width | max-width
+height | min-height | max-height
+
+padding-top
+paddig-right
+padding-bottom
+padding-left
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+overflow: auto|hidden|scroll
+overflow-x
+overflow-y
+overflow-wrap:break-word = word-wrap
+*/

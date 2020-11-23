@@ -1,0 +1,107 @@
+/*un commentaire CSS plus un fichier est court plus il chargera plus logntemps, plus il y a de fichier CSS plus le temps de chargement sera long
+
+selon les explorateurs l'affichage ne sera pas appliqué site "normalize"*/
+
+html {
+    font-family: Brasier, monospace;
+    background: url(image/fond2.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.fond {
+    opacity: 0.5;
+}
+
+body {
+    font-family: Brasier, monospace;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fff;
+    background-color: rgba(81, 139, 127, 0.75);
+}
+
+header,
+footer,
+address {
+    text-transform: uppercase;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    background-color: rgba(131, 170, 179, 0.8);
+    width: auto;
+    height: auto;
+    padding: (1, 5);
+}
+
+.support {
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    background-color: rgb(122, 151, 184);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.entete {
+    border: 1rem solid rgba(66, 131, 117, 0.8);
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    background-color: transparent;
+}
+
+.sommaire {
+    border: 1rem solid rgb(102, 145, 179);
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    max-width: max-content;
+}
+
+.galery {
+    background-color: rgba(63, 76, 60, 0.8);
+}
+
+.inspi {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background-color: rgb(171, 204, 241);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+}
+
+li,
+ul {
+    border: 1px #333;
+    list-style-image: url();
+    list-style-position: inside;
+    list-style-type: symbols();
+}
+
+
+/*---------------------------------boite int------------------------------------------------*/
+
+.case {
+    box-sizing: 200, 200;
+    align-self: auto;
+    /*background-color: rgba(80, 145, 123, 0.726);*/
+    border: 4px rgba(12, 7, 7, 0.5);
+    box-shadow: 4px rgb(106, 247, 78);
+    box-sizing: content-box;
+    padding-bottom: 15x;
+    padding-right: 15px;
+    margin: 15px;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------
+
+
+#wrapper {
+    background-color:rgb(122, 151, 184);
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgb(22, 18, 18);
+    width: 100%;
+}
+--*/

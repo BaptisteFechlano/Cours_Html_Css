@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+body,
+{
+    background-color: rgb(1, 92, 172);
+    margin: auto;
+    width: 1000px;
+}
+
+header {
+    background-color: rgb(185, 179, 85);
+    margin: auto;
+    width: 1000px;
+}
+
+section {
+    background-color: rgb(11, 96, 170);
+    margin: auto;
+    width: 800px;
+    float: left;
+}
+
+aside {
+    background-color: rgb(10, 58, 46);
+    margin: auto;
+    width: 200px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(102, 101, 23);
+    height: 30px;
+    margin: auto;
+    width: 1000px;
+}
+
+
+/*
+.fleft {
+    float: left; // clear:both ou autre
+}
+
+
+
+p {
+    border: 1px solid #747272;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.first {
+    background-color: rgb(76, 223, 223);
+    position: fixed;
+    z-index: 12;
+}
+
+.second {
+    background-color: rgb(65, 65, 221);
+    position: relative;
+    left: 70px;
+    top: 50px;
+    z-index: 10;
+}
+
+.third {
+    background-color: rgb(206, 88, 88);
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    z-index: 8;
+}
+
+
+
+position
+top, right, bottom, left
+z-index:;
+
+img:hover {
+    opacity: 0.8;
+}
+
+
+.ib {
+    display: inline-table;
+}
+
+.il {
+    display: list-item;
+}
+visibility: collapse; visible sur tableau
+
+display :flex;
+display:flex;*/

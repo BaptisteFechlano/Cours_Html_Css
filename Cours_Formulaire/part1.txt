@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire(1/2)</title>
+</head>
+
+<body>
+    <form method="post" action="">
+        <input type="password" name="champformulaire"> Publier maintenant? <input type="checkbox" name="publishNews"> Votre choix <input type="radio" name="choice"> Oui <input type="radio" name="choice"> Non
+
+		<input type="color" name="fieldForm"><br>
+		
+		<input type="email" name="fieldForm"><br>
+		
+		<input type="tel" name="fieldForm"><br>
+		
+		<input type="search" name="fieldForm"><br>
+		
+		<input type="range" name="fieldForm" min="0" max="100" step="5"><br>
+		
+		<input type="date" name="fieldForm"><br>
+		
+		Nom : <input type="text" autocomplete="" name="fieldForm"><br>
+		<input type="reset" value="Effacer">
+		<input type="submit" value="Se connecter"><br>
+
+		<p><label for="prenom">Nom :</label><input id="prenom" name="username" placeholder="Entrez votre nom..."></p>
+    </form>
+</body>
+
+</html>

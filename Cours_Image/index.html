@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+</head>
+
+<body>
+    <h1>Images et figures</h1>
+    <figure>
+        <img src="#" alt="texte desciptif pour malvoyants">
+        <figcaption>Crédit auteur !
+            <a href="#">lesite.com</a> </figcaption>
+    </figure>
+    <!--utilisation correcte pour incruster une image et la commenter-->
+    <picture>
+        <source srcset="img1.jpg" media="(min-width: 600px)">
+        <img src="img1mini.jpg " alt=" ">
+    </picture><br>
+    <img src="img1mini.jpg " alt="texte alternatif " width="300 " height="auto " longdesk="truc pour analyseur de pages ">
+    <!--valeur en pixel--><br>
+
+    <img usemap="#worldmap " src="map.png " alt="carte du monde ">
+
+    <map name="worldmap ">
+            <area href="mapvert.png " shape="rect " coords="0,0 280,284 ">
+        </map>
+    <!--
+            dans le href il est aussi possible de mettre une URL
+            shape = rect -> x1, y1 x2,y2
+                    circle -> x, y, r
+                    polygone -> x1,x2,y1,y2... x10,y10
+        -->
+</body>
+
+</html>

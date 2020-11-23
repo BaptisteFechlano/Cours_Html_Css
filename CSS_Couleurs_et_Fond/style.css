@@ -1,0 +1,38 @@
+/*un commentaire CSS plus un fichier est court plus il chargera plus logntemps, plus il y a de fichier CSS plus le temps de chargement sera long
+
+selon les explorateurs l'affichage ne sera pas appliqué site "normalize"*/
+
+header,
+body,
+footer {
+    margin: auto;
+}
+
+header {
+    height: 1000px;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(28, 224, 192);
+    margin: auto;
+    width: 1000px;
+}
+
+p {
+    font-variant: small-caps;
+}
+
+div#block {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+p span.text-red {
+    background-color: rgb(201, 188, 14);
+}

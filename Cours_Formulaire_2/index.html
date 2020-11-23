@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire (2/2)</title>
+</head>
+
+<body>
+    <form method="post" id="id_form" action="">
+        <fieldset form="id_form">
+            <legend>Accéder à mon CV</legend>
+            <p>Nom : <input type="text" name="user_name"></p>
+            <p><textarea name="article_content" rows="10" cols="45" placeholder="Votre texte ici..." minlength="8" maxlength="20"></textarea></p>
+            <p>Choix système :<br>
+                <select name="choiceOS" size="2">
+                <option value="win">Windows</option>
+                <option value="linux">GNU/Linux</option>
+                <option value="mac">MacOS</option>
+            </select></p>
+
+            <p><input type="submit" name="valid_form" value="Envoyer"></p>
+        </fieldset>
+        <fieldset form="id_form">
+            <select name="choixJeu">
+                <optgroup label="RPG">
+                    <option value="Final Fantasy">Final Fantasy</option>
+                    <option value="The legend of Zelda">The legend of Zelda</option>
+                </optgroup>
+                <optgroup label="FPS">
+                    <option label="CS:GO" disabled>CS:GO</option>
+                    <option value="Fortnite">Fortnite</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+    <form method="post" id="id_form" action="">
+        <fieldset form="id_form">
+            <legend>Autres options</legend>
+            Choisir un Jeu : <input list="choixJeu">
+            <datalist id="choixJeu">
+                <option value="CS:GO"></option>
+                <option value="Final Fantasy"></option>
+            </datalist>
+
+            <br><input type="submit" name="valid_form" value="Envoyer">
+        </fieldset>
+    </form>
+    <button type="button">Cliquez ici</button>
+    <!--utile pour JAVASCRIPT-->
+    <button formmethod="POST" formaction="mapage.html" type="submit">Autre clic</button>
+    <!--utile pour JAVASCRIPT-->
+
+</body>
+
+</html>

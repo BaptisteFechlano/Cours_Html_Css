@@ -1,0 +1,13 @@
+HTML ! 1993 naissance  
+HyperText Markup Language
+Contenu d'une page brut
+"texte, lien, tableau, formulaire de saisi, médias (images, son, vidéos)
+"intégration externe = lecteur etc"
+
+CSS ! 1996 naissance  
+Cascading Style Sheets
+Style de présentation d'une page 
+"Style du texte, police de caractères, couleur de texte,
+de fond, alignements, marges, zones,
+Dimensions, opacités'"
+Responsives design = s'adapte à l'écran

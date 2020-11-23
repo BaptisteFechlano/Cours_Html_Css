@@ -1,0 +1,38 @@
+p.prems {
+    font-variant: small-caps;
+}
+
+p.deuz {
+    font-style: italic;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+p.troiz {
+    font-weight: bold;
+}
+
+p.qatrz {
+    font-size: 1.5em;
+}
+
+p.cinqz {
+    line-height: 65%;
+}
+
+p.sixz {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+p.sept {
+    font-family: cursive;
+}
+
+p.huit {
+    font-family: Calibri, serif;
+}
+
+p.neuf {}

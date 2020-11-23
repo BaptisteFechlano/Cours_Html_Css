@@ -1,0 +1,11 @@
+body {
+    background-color: #EEF;
+    margin: auto;
+    witdh: 1000px;
+}
+
+li {
+    liste-style-image: url();
+    list-style-position: inside;
+    list-style-type: lower-greek;
+}
